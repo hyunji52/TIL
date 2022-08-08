@@ -1,3 +1,24 @@
+# **2022.08.08**
+---
+
+## Markdown 문법
+---
+- `#` 헤딩 : 문서의 제목, 소제목 (h1~h6)
+- 리스트
+    1. 순서o : (1. 2. 3.)
+    2. 순서x : * - + (아무거나 사용 가능)
+
+- `tab` : 들여쓰기
+- `shift + tab` : 내어쓰기
+- `*기울임*` *안녕*
+- `**볼드**` **안녕**
+- `***기울임+볼드***` ***안녕***
+- `~~취소선~~` ~~안녕~~
+
+- ### 코드
+    1. **인라인 코드** : 한줄 코드
+    2. **블록코드** : 여러줄 코드
+
 ## **기본 명령어**
 
 1. mkdir 폴더명
@@ -88,8 +109,13 @@ git diff 해쉬값 해쉬값
 8. github와 연결
 git remote add origin URL
 git remote -v
-# remote 삭제
+
+## **remote 삭제**
 git remote rm origin
 
 9. github에 local commits 올리기
 git push origin master
+
+
+---
+
